@@ -33,17 +33,17 @@ button {
 }
 
 .flower, .bear {
-    width: 200px; /* Twice the size of the final "Yes" button */
-    height: 200px;
-    position: absolute;
-    top: 70%; /* Move below the text */
-    transform: translateY(-50%); /* Adjust for centering */
+    width: 100px; /* Reduce the size to half */
+    height: 100px;
+    margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.flower {
-    left: 5%; /* Move more to the left corner */
-}
-
-.bear {
-    right: 5%; /* Move more to the right corner */
+#animationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add some space below the buttons */
 }
