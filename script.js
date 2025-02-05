@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let yesSize = 20; // Starting font size for "Yes" button
 
     yesButton.addEventListener("click", () => {
-        message.innerText = "Yippppeeee can't wait to meet you again ❤️ Cya soon";
+        message.innerText = " ❤️Yayyyyyyyyy❤️It makes me very happy you laid your mesmerising eyes on such poor work❤️I'll Make it worthwhile❤️";
         showAnimation();
     });
 
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (yesSize >= 100) { // When it gets big enough, make "No" disappear
             noButton.style.display = "none";
-            message.innerText = "Cmon don't make me sad now. There's only one right choice 😉";
+            message.innerText = "Cmon don't make me sad now.";
         }
     });
 
