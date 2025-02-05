@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let yesSize = 20; // Starting font size for "Yes" button
 
     yesButton.addEventListener("click", () => {
-        message.innerText = " ❤️Yayyyyyyyyy❤️It makes me very happy you laid your mesmerising eyes on such poor work❤️I'll Make it worthwhile❤️";
+        message.innerText = " ❤️Yayyyyyyyyy❤️Love to have such an amazing person in my life❤️It makes me very happy you laid your mesmerising eyes on such poor work❤️";
         showAnimation();
     });
 
