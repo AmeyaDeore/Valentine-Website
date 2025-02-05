@@ -42,17 +42,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                margin-top: 20px; /* Add some space below the buttons */
             }
 
             .flower, .bear {
-                max-width: 100%;
+                max-width: 50%; /* Reduce the size to half */
                 height: auto;
                 margin: 10px 0;
             }
 
             @media (min-width: 600px) {
                 .flower, .bear {
-                    max-width: 50%;
+                    max-width: 25%; /* Further reduce size for larger screens */
                 }
             }
         `;
