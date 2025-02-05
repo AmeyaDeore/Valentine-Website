@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+.container {
+    margin-top: 50px;
+    position: relative;
+}
+
+h1 {
+    color: #e91e63;
+}
+
+button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#yesButton {
+    background-color: #ff4081;
+    color: white;
+}
+
+#noButton {
+    background-color: #b0bec5;
+    color: white;
+}
+
+.flower, .bear {
+    width: 200px; /* Twice the size of the final "Yes" button */
+    height: 200px;
+    position: absolute;
+    top: 70%; /* Move below the text */
+    transform: translateY(-50%); /* Adjust for centering */
+}
+
+.flower {
+    left: 5%; /* Move more to the left corner */
+}
+
+.bear {
+    right: 5%; /* Move more to the right corner */
+}
