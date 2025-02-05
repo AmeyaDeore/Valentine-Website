@@ -34,5 +34,28 @@ document.addEventListener("DOMContentLoaded", () => {
 
         container.appendChild(flowerImg);
         container.appendChild(bearImg);
+
+        // Apply styles for mobile visibility
+        const style = document.createElement('style');
+        style.innerHTML = `
+            #animationContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .flower, .bear {
+                max-width: 100%;
+                height: auto;
+                margin: 10px 0;
+            }
+
+            @media (min-width: 600px) {
+                .flower, .bear {
+                    max-width: 50%;
+                }
+            }
+        `;
+        document.head.appendChild(style);
     }
 });
